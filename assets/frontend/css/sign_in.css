@@ -1,0 +1,129 @@
+/***  STYLE FOR SIGN-IN AND SIGN-UP MODALS ***/
+/***  CODE BY : PS  (3-31-2017)            ***/
+
+
+.panel-heading {
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 25px 30px 5px;
+}
+.panel-heading a{
+	color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.1s linear 0s;
+}
+.panel-heading a.active{
+	background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #00aeef;
+    font-size: 18px;
+    padding: 10px 8px;
+}
+.panel-heading hr{
+	background-image: -moz-linear-gradient(left center , rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    border: 0 none;
+    clear: both;
+    height: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+ input[type="text"],input[type="email"], input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+input:hover,
+ input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+	border-radius: 30px;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+.btn-facebook {
+	background-color: #3B5998;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+	border-radius: 30px;
+}
+.btn-facebook:hover,
+.btn-facebook:focus {
+	color: #fff;
+	background-color: #4264aa;
+	border-color: #53A3CD;
+}
+.checkbox-label
+{
+	color: #00aeef;
+	font-weight: 200;
+}
+.checkbox-label:hover,
+.checkbox-label:focus {
+	color: #63aae7;
+	font-weight: 200;
+}
+
+.forgot-password {
+	color: #00aeef;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	color: #63aae7;
+}
+
+.btn-register {
+	background-color: #59b2e0;
+    border-color: #59b2e6;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    height: auto;
+    outline: medium none;
+    padding: 14px 0;
+    text-transform: uppercase;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+
+.cart-tab tbody tr td .sp-input input {
+    padding: 0;
+    height: 39px;
+    border: 0px;
+    border-bottom: 1px solid #ddd;
+}

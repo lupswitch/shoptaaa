@@ -1,0 +1,221 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+h1{
+    text-align: center;
+}
+#main {
+    width: 950PX;
+    margin: 50PX auto;
+    font-family: raleway;
+}
+#container {
+    width: 950px;
+    float: left;
+    border-radius: 10px;
+    font-family: raleway;
+    border: 2px solid #ccc;
+    padding: 10px 40px 11px;
+    margin-top: 16px;
+}
+h2 {
+    background-color: #FEFFED;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin: -10px -40px;
+    padding: 15px;
+}
+hr {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 10px -40px;
+    margin-bottom: 30px;
+}
+input[type=text]{
+    margin-top: 6px;
+    line-height: normal;
+    padding: 9px 5px 8px 10px;
+    font-family: "proxima_nova_rgregular", sans-serif;
+    font-size: 16px;
+}
+input[type=submit] {
+    margin-left: 1%;
+    background-color: #FFBC00;
+    color: white;
+    border: 1px solid #FFCB00;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.fg-upload-parent {
+    position: relative;
+    margin-top: 6px;
+}
+.fg-row {
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.fg-label {
+    color: #333333;
+    font-family: "proxima_novasemibold", sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.fg-clear {
+    clear: both;
+}
+.fg-help {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 4px;
+    margin-left: 3px;
+    margin-bottom: 0;
+    color: #aaa;
+    display: block;
+}
+
+#results {
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    table-layout: fixed;
+    margin-bottom: 30px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.head {
+    font-size: 15px;
+    font-family: "proxima_novasemibold", sans-serif;
+    background: #FEFFED;
+    color: #1d4c55;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.head th{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    line-height: normal;
+    padding: 10px 0px;
+    text-align: center;
+}
+td {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    line-height: normal;
+    padding: 10px 0px;
+    text-align: left;
+    padding-left:3%;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.fg-label {
+    color: #333333;
+    font-family: "proxima_novasemibold", sans-serif;
+    font-size: 18px;
+    line-height: 1;
+}
+.fg-label a{
+    color: #428bca;
+    text-decoration: none;
+}
+
+#return {
+    width: 492px;
+    height: 350px;
+    float: left;
+    border-radius: 10px;
+    font-family: raleway;
+    border: 2px solid #ccc;
+    padding: 10px 40px 11px;
+}
+#return h3#success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    color: green;
+}
+#return P {
+    text-align: center;
+}
+#return .back_btn {
+    margin-top: 51px;
+    text-align: center;
+}
+#btn {
+    width: 100%;
+    background-color: #FFBC00;
+    color: white;
+    border: 2px solid #FFCB00;
+    padding: 10px 70px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration:none;
+    color: cornflowerblue;
+}
+img#paypal_logo {
+  float: right;
+  margin-right: 20px;
+  margin-top: 1%;
+  padding-bottom: 15px;
+}
+.success_main_heading{
+    margin-left: -32%;
+    margin-bottom: 7%;
+
+}
+#return h3#fail{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+    color: red;
+}
+.red{
+    color:red;
+    font-weight: bold;
+}
+.fg-input, .fg-select, .fg-textarea {
+    padding-left: 5px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    font-family: "proxima_nova_rgregular", sans-serif;
+    font-size: 16px;
+    color: #383838;
+}
+.fg-fw {
+    width: 100%;
+}
+.fg-select {
+    margin-top: 6px;
+    padding: 8px 0 7px;
+}
+.text, .password {
+    margin-top: 6px;
+    line-height: normal;
+    padding: 9px 5px 8px 10px;
+    font-family: "proxima_nova_rgregular", sans-serif;
+    font-size: 16px;
+}

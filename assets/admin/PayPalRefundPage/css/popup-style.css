@@ -1,0 +1,47 @@
+.simplePopup {
+    display: none;
+    position: fixed;
+    z-index: 3;
+  
+    width: 10%;
+    min-width: 24%;
+    padding-left: 28%;
+    padding-top: 6%;
+}
+.simplePopupClose {
+float:right;
+cursor:pointer;
+margin-left:10px;
+margin-bottom:10px;
+}
+
+.simplePopupBackground {
+display:none;
+background:#000;
+position:fixed;
+height:100%;
+width:100%;
+top:0;
+left:0;
+z-index:1;
+}
+ img.load{
+    width: 10%;
+    margin: 10px 41%;
+    
+}
+
+ img.logo{
+    width: 40%;
+    
+    margin: -6px 105px;
+}
+
+p.load_text{
+    margin: 10px 97px;
+    
+}
+
+img.formget_logo{
+    margin: 10px 110px;
+}
